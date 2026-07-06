@@ -1,0 +1,5 @@
+abstract data type
+
+pop karwate karwate ek time aayega jab underflow hoga underflow mein ek error aa rha h!!
+
+how do we stop our user to go underflow by using stake
