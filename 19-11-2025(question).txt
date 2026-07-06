@@ -1,0 +1,28 @@
+class library_item:
+    def __init__(self,Title,Author,Publish_year,Available,Genre):
+        self.Titile=Title
+        self.Author=Author
+        self.Publish_year= Publish_year
+        self.Available=Available
+        self.Genre=Genre
+
+    def diplay(self):
+        print("Title:",self.Titile)
+        print("Author:",self.Author)
+        print("Publis_year:",self.Publish_year)
+        print("Available:",self.Available)
+        print("Genre:",self.Genre)
+
+class magazine(library_item):
+    def __init__(self,Title,Author,Publish_year,Available,Issue_no):
+     super().__init__(self,Title,Author,Publish_year,Available,Issue_no)
+     self.Issue_no=Issue_no
+
+    def display(self):
+        super().__init__
+  
+
+obj1=library_item("hello","hero don",2001,"no","GK")
+obj1.display
+obj2=magazine("hii","heroine",2008,"yes","november 2026")
+obj2.display
